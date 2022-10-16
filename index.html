@@ -1,0 +1,53 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11/08</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="conteudo">
+            <h3 style="margin-top: 30px;">Movimentação Financeira</h3>
+            <form class="formulario" autocomplete="off">
+
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" disabled>
+                <label for="conta">Conta:</label>
+                <input type="text" id="conta" name="conta" placeholder="Ex.: 1">
+                <label for="saldo">Saldo:</label>
+                <input type="text" id="saldo" name="saldo" disabled>
+                <label for="valor">Valor:</label>
+                <input type="text" id="valor" name="valor" placeholder="Ex.: 1000">
+    
+    
+                <div class="botoes">
+                    <a class="depositar" onclick="depositar()">Depositar</a>
+                    <a class="sacar" onclick="sacar()">Sacar</a>
+                </div>
+    
+            </form>
+        </div>
+        
+            <footer>
+                <p> <b>
+                        Banco do Brasil
+                    </b>
+                </p>
+            </footer>
+        
+
+    </div>
+
+
+</body>
+
+</html>

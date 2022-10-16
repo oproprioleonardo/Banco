@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #F2994A;
+    background: -webkit-linear-gradient(to right, #F2C94C, #9c5314);
+    background: linear-gradient(to right, #F2C94C, #F2994A);
+    min-height: 100%;
+}
+
+.pagina {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 55px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    width: 30%;
+    padding: 60px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+label,
+input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 4px;
+    display: block;
+}
+
+input {
+    align-self: center;
+    border: 1px solid #ccc;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.depositar,
+.sacar {
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.depositar {
+    border: 2px solid rgb(0, 177, 0);
+    background-color: white;
+    color: rgb(0, 177, 0);
+}
+
+.sacar {
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}
+
+.depositar:hover,
+.sacar:hover {
+    background-color: rgb(211, 211, 211);
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    color: rgb(0, 177, 0);
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    font-size: 1.2em;
+    height: 55px;
+    box-shadow: 12px 12px 16px 16px rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    margin: 0;
+}
